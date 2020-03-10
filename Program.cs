@@ -8,6 +8,7 @@ namespace RaceTrack
 {
     class Program
     {
+        //
         static void Main(string[] args)
         {
             var raceTrack = new RaceTrack.RaceTrack(5);
