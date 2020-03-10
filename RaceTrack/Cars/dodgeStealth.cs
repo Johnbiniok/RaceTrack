@@ -19,6 +19,11 @@ namespace RaceTrack.RaceTrack.Cars
             Console.WriteLine($"The {Name} stops on a dime!");
             base.Brake();
         }
+
+       /* public override void StopEngine()
+        {
+            Console.WriteLine($"The {Name} hissed as the engine turned off");
+        }*/
     }
 
 }

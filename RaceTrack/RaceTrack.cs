@@ -61,7 +61,7 @@ namespace RaceTrack.RaceTrack
             foreach (var driver in Drivers)
             {
                 driver.Stop();
-                //driver.StopEngine();
+                driver.StopEngine();
             }
             Thread.Sleep(1000);
         }
